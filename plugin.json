@@ -1,0 +1,17 @@
+{
+  "name": "my-cylinder-plugin",
+  "display_name": "Advanced Cylinder",
+  "description": "Enhanced cylinder with advanced calculations",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "shapes": [
+    {
+      "name": "AdvancedCylinder",
+      "class": "AdvancedCylinderShape",
+      "parameters": {
+        "required": ["radius", "height"],
+        "defaults": {"radius": 1.0, "height": 2.0}
+      }
+    }
+  ]
+}
